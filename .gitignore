@@ -1,0 +1,4 @@
+dist/
+.direnv/
+.DS_Store
+*.pdf
