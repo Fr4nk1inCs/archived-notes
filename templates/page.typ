@@ -20,11 +20,10 @@
 
 // Fonts
 #let main-font = (
-  "Charter",
-  "Source Han Serif SC",
-  "Source Han Serif TC",
   // shiroa's embedded font
   "Linux Libertine",
+  "Source Han Serif SC",
+  "Source Han Serif TC",
 )
 #let code-font = (
   "BlexMono Nerd Font Mono",
@@ -118,7 +117,7 @@
   show link: set text(fill: dash-color)
 
   // math setting
-  show math.equation: set text(weight: 400)
+  show math.equation: set text(font: "Libertinus Math", weight: 400)
 
   // code block setting
   show raw: it => {
