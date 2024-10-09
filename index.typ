@@ -27,7 +27,7 @@ This website is a online book built by #link("https://typst.app")[Typst] and #li
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-When it comes to writing digital notes, there are many choices. You can use markdown-based applications like #link("https://obsidian.md")[Obsidian], org-mode in #link("https://orgmode.org")[Emacs], or even pick your favorite code editor to write #LaTeX. I have tried all of these tools, but none of them satisfied me. In my opinion, a good note-taking tool should be easy-to-use, flexible, and powerful. That's why I choose Typst.
+When it comes to writing digital notes, there are many choices. You can use markdown-based applications like #link("https://obsidian.md")[Obsidian], #link("https://orgmode.org")[org-mode] in Emacs, or even pick your favorite code editor to write #LaTeX. I have tried all of these tools, but none of them satisfied me. In my opinion, a good note-taking tool should be easy-to-use, flexible, and powerful. That's why I choose Typst.
 
 Typst has a simple syntax like markdown if you only need basic typesetting. But it also supports advanced features like #LaTeX. For example, here is a example of Typst syntax and its rendered result:
 
