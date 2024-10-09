@@ -29,7 +29,7 @@ This website is a online book built by #link("https://typst.app")[Typst] and #li
 
 When it comes to writing digital notes, there are many choices. You can use markdown-based applications like #link("https://obsidian.md")[Obsidian], #link("https://orgmode.org")[org-mode] in Emacs, or even pick your favorite code editor to write #LaTeX. I have tried all of these tools, but none of them satisfied me. In my opinion, a good note-taking tool should be easy-to-use, flexible, and powerful. That's why I choose Typst.
 
-Typst has a simple syntax like markdown if you only need basic typesetting. But it also supports advanced features like #LaTeX. For example, here is a example of Typst syntax and its rendered result:
+Typst has a simple syntax like markdown if you only need basic typesetting. For example, here is a example of Typst syntax and its rendered result:
 
 #grid(
   columns: (1fr, 1fr),
@@ -68,7 +68,7 @@ Typst has a simple syntax like markdown if you only need basic typesetting. But 
 
 For advanced users, Typst is also a good choice. It is a complete programming language with a powerful typesetting system. You can write your own macros, define your own commands, and even create your own themes. Typst is a perfect tool for writing notes, articles, and even books. Additionally, since it is a programming language, there are many powerful packages available for Typst. Here's some of the packages I use:
 - #link("https://typst.app/universe/package/ctheorems")[ctheorems]: a great package for writing theorems and proofs,
-- #link("https://typst.app/universe/package/cetz")[cetz]: like TikZ in LaTeX, a package for drawing beautiful diagrams,
+- #link("https://typst.app/universe/package/cetz")[cetz]: like TikZ in #LaTeX, a package for drawing beautiful diagrams,
 - #link("https://typst.app/universe/package/lovelace")[lovelace]: a package for writing algorithms.
 
 Thanks to its active community, it's very easy to write Typst in its online editor or any modern code editor. The great all-in-one language server #link("https://github.com/Myriad-Dreamin/tinymist")[tinymist] (also a CLI and a VSCode extension) can be integrated into your favorite editor with all the important features for writing like semantic highlighting, completion, error checking, code formatting (powered by #link("https://github.com/Enter-tainer/typstyle")[typstyle]) and even live preview (powered by #link("https://github.com/Enter-tainer/typst-preview")[typst-preview]). This is another reason why I choose Typst. I can write Typst in #link("https://neovim.io")[NeoVim] seamlessly with all the features I need.
