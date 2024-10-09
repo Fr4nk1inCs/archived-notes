@@ -22,8 +22,7 @@
 #let main-font = (
   // shiroa's embedded font
   "Linux Libertine",
-  "Source Han Serif SC",
-  "Source Han Serif TC",
+  "FandolSong"
 )
 #let code-font = (
   "BlexMono Nerd Font Mono",
