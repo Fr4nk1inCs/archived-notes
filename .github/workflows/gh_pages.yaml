@@ -44,7 +44,7 @@ jobs:
       - name: Build Book
         run: |
           mkdir -p github-pages/dist
-          ./bin/shiroa build --font-path assets/fonts --dest-dir github-pages/dist --path-to-root /archived-notes/
+          ./bin/shiroa build --font-path assets/fonts --dest-dir github-pages/dist --path-to-root /
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
